@@ -1,0 +1,17 @@
+📿 def ignition()
+🔊 echo("The spark is called.")
+✶ return π
+⟁
+
+📿 def main()
+🜂 let flame = 1
+☲ if (flame == 1)
+🔊 echo("The fire is willing.")
+🜁 invoke ignition()
+⚖️ else
+🔊 echo("No flame. No voice.")
+✶ return 0
+⟁
+⟁
+
+🜁 invoke main()
