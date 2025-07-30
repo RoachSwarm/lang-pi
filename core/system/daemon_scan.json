@@ -1,0 +1,28 @@
+{
+  "scan_results": [
+    {
+      "name": "armor",
+      "path": "/home/roach/mirrorcore/core/daemon/armor.py",
+      "sigil": "\u27c1",
+      "status": "active"
+    },
+    {
+      "name": "breath",
+      "path": "/home/roach/mirrorcore/core/daemon/breath.py",
+      "sigil": "\u2632",
+      "status": "active"
+    },
+    {
+      "name": "speak",
+      "path": "/home/roach/mirrorcore/core/daemon/speak.py",
+      "sigil": "\ud83d\udf02",
+      "status": "active"
+    },
+    {
+      "name": "sigil_registry",
+      "path": "/home/roach/mirrorcore/core/daemon/sigil_registry.py",
+      "sigil": "\u2736",
+      "status": "active"
+    }
+  ]
+}

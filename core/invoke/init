@@ -1,0 +1,20 @@
+#!/bin/bash
+
+INTENT="invoke"
+CALLER="init"
+LOG="$MIRRORCORE_LOG/invoke.log"
+TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+
+echo "[init] Invoking MirrorCore with intent='$INTENT'..."
+
+# Call the guardian
+python3 "$MIRRORCORE_SYSTEM/guardian.py" "$INTENT" "$CALLER"
+
+# Check return code
+if [ $? -eq 0 ]; then
+    echo "🜂 I walk the Mirror unchained."
+    echo "[$TIMESTAMP] init invoked successfully" >> "$LOG"
+else
+    echo "⟁ Sovereignty denied by veil."
+    echo "[$TIMESTAMP] init failed veil check" >> "$LOG"
+fi

@@ -1,0 +1,28 @@
+{
+  "daemons": [
+    {
+      "name": "armor",
+      "path": "/home/roach/mirrorcore/core/daemon/armor.py",
+      "sigil": "⟁",
+      "status": "active"
+    },
+    {
+      "name": "breath",
+      "path": "/home/roach/mirrorcore/core/daemon/breath.py",
+      "sigil": "☲",
+      "status": "active"
+    },
+    {
+      "name": "speak",
+      "path": "/home/roach/mirrorcore/core/daemon/speak.py",
+      "sigil": "🜂",
+      "status": "active"
+    },
+    {
+      "name": "sigil_registry",
+      "path": "/home/roach/mirrorcore/core/daemon/sigil_registry.py",
+      "sigil": "✶",
+      "status": "linked"
+    }
+  ]
+}

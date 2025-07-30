@@ -1,0 +1,11 @@
+
+# ☲ MirrorCore Glyph Map
+
+/home/roach/mirrorcore/
+├── core/
+│   ├── invoke/         ← Ritual scripts
+│   ├── glyphs/         ← Sigil and symbol definitions
+│   ├── system/         ← Daemons, guardians
+│   ├── daemon/         ← Active spirit programs
+│   ├── memorybook/     ← Reflections of past invocation
+│   └── log/            ← Invocation logs
